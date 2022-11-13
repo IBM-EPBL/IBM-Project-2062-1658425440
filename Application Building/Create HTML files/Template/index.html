@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pridiction</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/indexStyle.css">
+    <script >
+       function check() {
+        document.getElementById('prediction').innerHTML='';
+       }
+       
+        
+          
+    </script>
+</head>
+<body> &nbsp;&nbsp;
+    <div class="d1" align="right">
+        <a href="/"> HOME </a>
+        &nbsp; &nbsp;
+        <a href="/index">PREDICTION</a>
+         &nbsp;
+     </div>
+    
+    <h2> Enter the mentioned values</h2>
+    
+    <form class="container" action="/predict" method="post">
+        <div class="tab" align="center">
+        <table>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr>
+        <tr><td>        
+        <label for="age">Age : </label></td><td>
+        <input id="age" type="number" name="age" required></td></tr>   
+        <tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr><td>        
+        <label for="blood_Urea">Blood Urea : </label></td><td>
+        <input id="blood_Urea" type="number" name="blood_Urea" required></td></tr>   
+        <tr></tr><tr></tr><tr></tr><tr></tr>
+        <tr><td>
+        <label for="BGR">Blood Glucose Random : </label></td><td>
+        <input id="BGR" type="number" name="BGR" required> </td></tr>       
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr><td>
+        <label>Are you Affected by Coronary Artery Disease : </label></td><td>
+        <select name="CRD" id="CRD">
+            <option for ="CRD" value="1">YES
+            <option for ="CRD" value="0">NO
+        </select></td></tr>      
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr><td>
+            <label>Do you have Anemia : </label></td><td>
+                <select name="anemia" id="anemia">
+                    <option for="anemia" value="1">YES
+                    <option for="anemia" value="0">NO
+                </select>
+        </td></tr>              
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr><td>
+            <label>Pus cell : </label></td><td>
+                <select name="pus_cell" id="pus_cell">
+                    <option for="pus_cell" value="1">NORMAL
+                    <option for="pus_cell" value="0">ABNORMAL
+                </select>
+        </td></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr><td>
+            <label>Red Blood Cell : </label></td><td>
+                <select name="RBC" id="RBC">
+                    <option for="RBC" value="1">NORMAL
+                    <option for="RBC" value="0">ABNORMAL
+                </select>
+        </td></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr><td>
+            <label>Diabetesmellitus : </label></td><td>
+                <select name="Diabete" id="Diabete">
+                    <option for="Diabete" value="1">YES
+                    <option for="Diabete" value="0">NO
+                </select>
+        </td></tr>        
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr><td>
+            <label>Pedal Edema : </label></td><td>
+                <select name="P_edema" id="P_edema">
+                    <option for="P_edema" value="1">YES
+                    <option for="P_edema" value="0">NO
+                </select>
+        </td></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr><td>
+        <input type="submit" value="submit"></td><td>
+        <input type="reset" value="clear" onclick="check()">
+        </td></tr>
+        <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+        </table>
+        
+    
+    </div>
+        
+    </form>
+    
+    <div align="center" class="hidden">
+        <h2 id="prediction">{{pred}}</h2>
+    </div>
+</body>
+</html>
