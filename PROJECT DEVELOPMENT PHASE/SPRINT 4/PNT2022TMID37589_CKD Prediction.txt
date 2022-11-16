@@ -1,5 +1,5 @@
 {
- "cells": [
+ "cells": 
   {
    "cell_type": "code",
    "execution_count": 79,
@@ -173,7 +173,7 @@
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
-       "<p>5 rows × 26 columns</p>\n",
+       "<p>5 rows Ã— 26 columns</p>\n",
        "</div>"
       ],
       "text/plain": [
@@ -525,7 +525,7 @@
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
-       "<p>5 rows × 26 columns</p>\n",
+       "<p>5 rows Ã— 26 columns</p>\n",
        "</div>"
       ],
       "text/plain": [
@@ -728,7 +728,7 @@
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
-       "<p>5 rows × 26 columns</p>\n",
+       "<p>5 rows Ã— 26 columns</p>\n",
        "</div>"
       ],
       "text/plain": [
@@ -1051,7 +1051,7 @@
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
-       "<p>10 rows × 26 columns</p>\n",
+       "<p>10 rows Ã— 26 columns</p>\n",
        "</div>"
       ],
       "text/plain": [
@@ -1406,7 +1406,7 @@
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
-       "<p>10 rows × 25 columns</p>\n",
+       "<p>10 rows Ã— 25 columns</p>\n",
        "</div>"
       ],
       "text/plain": [
