@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   </head>
+<body id="top">
+             <section>
+          <div class="container">
+               <div class="row">
+			   
+					<div style="background-color:pink;text-align: center;">
+                        <h1>Chronic Kidney Disease</h1><h3>Machine Learning web app built with Flask</h3>
+                    </div>
+					<br/>
+					<br/>
+
+                    <div class="col-md-8 col-sm-7">
+                        {{prediction_text}}
+                        {% if prediction_text==1%}
+
+                         <div >
+                              <h2>Medical Result</h2>
+                              <p>Your Condition is normal.</p>
+                              <blockquote>You are not having chronic kidney disease.</blockquote>
+			                  <!--<img src="images\result1.jpg" width="300" height="300"/>-->
+                              <p></p>
+                              
+                         </div>
+                        {%else%}
+                        <div >
+                              <h2>Medical Result</h2>
+                              <p>Your Condition is abnormal.</p>
+                              <blockquote>You are having chronic kidney disease.</blockquote>
+                              <!--<img src="images\result2.jpeg" width="300" height="300"/>-->
+                              <p></p>
+
+                         </div>
+                        {% endif %}
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-5">
+                         <div class="news-sidebar">
+                              
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+         
+   
+</body>
+</html>
