@@ -1,12 +1,12 @@
 # <p align="center">IBM-Project-2062-1658425440</p>
 # <p align="center">🤞👀 Early Detection of Chronic Kidney Disease using Machine Learning</p> 
-## <p align="center">**Health is not valued until sickness comes**</p>
-## <p align="center">**A good laugh and a long sleep are the best cures in the doctor’s book**</p>
+## <p align="center"> **Health is not valued until sickness comes** </p>
+## <p align="center"> **A good laugh and a long sleep are the best cures in the doctor’s book** </p>
 <img align="center" alt="HTML5" width="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5fK4zfOsPucNf5F4gdTT_hyDlX9S_zpCiPw&usqp=CAU"/> 
 
 ### TEAM MEMBERS:
 
-#### 👉TM Lead  : SOLAI SAKTHI DASAN S
+#### 👉TM Lead    : SOLAI SAKTHI DASAN S
 #### 👉Member 1 : MANIRAJ S
 #### 👉Member 2 : HARISH KRISHNA RS
 #### 👉Member 3 : SEVUGA MOORTHY M
