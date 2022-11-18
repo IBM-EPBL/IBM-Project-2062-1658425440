@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Chronic Kidney Disease prediction</title>
+     
+   
+</head>
+<body id="top">
+<form action="{{url_for('predict')}}" method="POST">
+                                  
+ <section >
+               <div class="row">
+                         <form id="appointment-form" role="form" method="post" action="#">
+
+
+                              <div style="background-color:pink;text-align: center;">
+                                   <h1>Chronic Kidney Disease</h1><h3>Machine Learning web app built with Flask</h3>
+                              </div>
+							  <br/>
+							  <br/>
+                              <div>
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="name">Blood Urea</label>
+                                        <input type="number" class="form-control" id="name" name="blood_urea" placeholder="Blood Urea Level">
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="name">Blood Glucose Random</label>
+                                        <input type="number" class="form-control" id="name1" name="blood_glucose_random" placeholder="Blood Glucose Level Random">
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="select">Select Anemia</label>
+                                        <select name = "Anemia">
+                                             <option value = "yes"> yes</option>
+                                             <option value = "no">no </option>
+                                        </select>
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="select">Select Coronary Artery Disease</label>
+                                        <select name = "coronary_artery_disease">
+                                             <option value = "yes"> yes</option>
+                                             <option value = "no">no </option>
+                                        </select>
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="select">Select Pus Cell</label>
+                                        <select name = "pus_cell">
+                                             <option value = "yes"> yes</option>
+                                             <option value = "no">no </option>
+                                        </select>
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="select">Select Red Blood Cell</label>
+                                        <select name = "red_blood_cell">
+                                             <option value = "yes"> yes</option>
+                                             <option value = "no">no </option>
+                                        </select>
+                                   </div>
+								   
+				 <div class="col-md-6 col-sm-6">
+                                        <label for="select">Select Diabetics Mellitus</label>
+                                        <select name = "diabetics_mellitus">
+                                             <option value = "yes"> yes</option>
+                                             <option value = "no">no </option>
+                                        </select>
+                                   </div>
+
+                                   <div class="col-md-6 col-sm-6">
+                                        <label for="select">Select Pedal Edema</label>
+                                        <select name = "pedal_edema">
+                                             <option value = "yes"> yes</option>
+                                             <option value = "no">no </option>
+                                        </select>
+                                   </div>
+                                   <div class="col-md-12 col-sm-12">
+                                        <button type="submit" class="form-control" id="cf-submit" name="submit">predict</button>
+
+                                   </div>
+                              </div>
+ 				</form>
+                                  
+          </div>
+     </section>
+                   
+  </body>
+</html>
