@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: 
+    linear-gradient(rgba(17, 13, 13, 0.527),
+    rgba(80, 51, 51, 0.5)),
+    url('chronicImage.jpg');  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    background-size: cover;  
+    
+}
+.glow {
+    font-family: cursive;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: rgb(218, 218, 233);
+    animation: glow 1s ease-in-out infinite alternate;   
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgb(20, 19, 19), 0 0 20px rgb(15, 2, 2),
+        0 0 30px #090111, 0 0 40px #f3d9e6,
+        0 0 50px #e60073, 0 0 60px #e60073,
+        ;
+    }
+    to {
+        text-shadow: 0 0 20px rgb(163, 85, 85),0 0 30px #92667c,
+        0 0 40px #ff4da6;
+    }
+}
+.glow h2 {
+    font-size: 7vmin;
+}
+a {
+    font-size: 3vmin;
+    color: whitesmoke;
+    text-decoration: dashed;
+    font-family: 'Lato',sans-serif;
+    padding: 2px 5px;
+    
+    
+}
+a:hover {
+    
+    color: #090111;
+    text-shadow:  0 0 20px rgb(240, 233, 233),0 0 30px #f7f1f4,
+    0 0 90px #ff4da6;
+    
+}
